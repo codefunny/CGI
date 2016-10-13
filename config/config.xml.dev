@@ -1,0 +1,9 @@
+<xml>
+    <DB>
+        <HostName>localhost</HostName>
+        <UserName>root</UserName>
+        <Password>123456</Password>
+        <DBName>recycle</DBName>
+        <CharacterSet>UTF8</CharacterSet>
+    </DB>
+</xml>

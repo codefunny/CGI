@@ -1,0 +1,9 @@
+<xml>
+    <DB>
+        <HostName>10.66.111.254</HostName>
+        <UserName>root</UserName>
+        <Password>cdb@huishoubao</Password>
+        <DBName>recycle</DBName>
+        <CharacterSet>UTF8</CharacterSet>
+    </DB>
+</xml>

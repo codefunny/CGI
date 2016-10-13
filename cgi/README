@@ -1,0 +1,14 @@
+启动方式一：
+目的：启动全部cgi程序。
+执行方法: ./startAll.sh
+原理：startAll.sh 循环调用startCgi.sh脚本，每隔3秒挨个启动对应的cgi程序；startCgi.sh 则调用该cgi对应目录中的restart.sh；restart.sh中会涉及到启动cgi进程的个数，此个数就通过/huishoubao/config/readConf.sh 去获取；其中个数的配置在/huishoubao/config/cgiConfig.conf中。
+
+启动方式二：
+目的：启动单个cgi程序。
+执行方法: ./startCgi.sh param1(PS:该cgi目录名) 如：./startCgi.sh api-cancel_order
+原理：startCgi.sh 调用该cgi对应目录中的restart.sh；restart.sh中会涉及到启动cgi进程的个数，此个数就通过/huishoubao/config/readConf.sh 去获取；其中个数的配置在/huishoubao/config/cgiConfig.conf中。
+
+启动方式三：
+目的：启动单个cgi程序。
+执行方法: ./restart.sh (进入该cgi对应的目录之间该语句)
+原理：restart.sh会kill掉已有的进程，然后再启动，其中涉及到启动cgi进程的个数，此个数就通过/huishoubao/config/readConf.sh 去获取；其中个数的配置在/huishoubao/config/cgiConfig.conf中。

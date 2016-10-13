@@ -1,0 +1,7 @@
+SOURCES += crypto.cpp \
+           time_tools.cpp \
+           string_tools.cpp \
+           Markup.cpp \
+           clearsilver.cpp \
+           http.cpp 
+           

@@ -1,0 +1,24 @@
+SOURCES += product.cpp \
+           price.cpp \
+           channel_table.cpp \
+           user_table.cpp \
+           price_character_table.cpp \
+           product_table.cpp \
+           organization_table.cpp \
+           goods_table.cpp \
+           order.cpp \
+           order_table.cpp \
+           logistics_table.cpp \
+           category_table.cpp \
+           hot_product_table.cpp \
+           logistics_channel_table.cpp \
+           authority.cpp \
+           group_table.cpp \
+           role_authority.cpp \
+           allowance_table.cpp \
+           downloadorder.cpp \
+           wechat_login.cpp \
+           wechat_template_msg.cpp \
+           wechat_send_passive_msg.cpp \
+           account_info_table.cpp \
+           wechat_send_sms_msg.cpp
